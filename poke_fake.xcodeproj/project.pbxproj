@@ -14,6 +14,11 @@
 		FF96E247222EC2AD00EF310A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF96E245222EC2AD00EF310A /* LaunchScreen.storyboard */; };
 		FF96E252222EC2AD00EF310A /* poke_fakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96E251222EC2AD00EF310A /* poke_fakeTests.swift */; };
 		FF96E25D222EC2AD00EF310A /* poke_fakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96E25C222EC2AD00EF310A /* poke_fakeUITests.swift */; };
+		FF96E2722231A30300EF310A /* c1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FF96E2712231A30300EF310A /* c1.gpx */; };
+		FFF3376C2242A94A00737EC5 /* centro empresarial.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FFF3376B2242A94A00737EC5 /* centro empresarial.gpx */; };
+		FFF3376E2242B1C200737EC5 /* Berrine.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FFF3376D2242B1C200737EC5 /* Berrine.gpx */; };
+		FFF3377022440DF500737EC5 /* estaçãoBerrine.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FFF3376F22440DF500737EC5 /* estaçãoBerrine.gpx */; };
+		FFF79F86226654FB00F3711F /* Trem mineiro.gpx in Resources */ = {isa = PBXBuildFile; fileRef = FFF79F85226654FB00F3711F /* Trem mineiro.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		FF96E239222EC2AB00EF310A /* poke_fake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poke_fake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF96E23C222EC2AB00EF310A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF96E23C222EC2AB00EF310A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = poke_fake/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		FF96E23E222EC2AB00EF310A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF96E241222EC2AB00EF310A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF96E243222EC2AD00EF310A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		FF96E258222EC2AD00EF310A /* poke_fakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = poke_fakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF96E25C222EC2AD00EF310A /* poke_fakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke_fakeUITests.swift; sourceTree = "<group>"; };
 		FF96E25E222EC2AD00EF310A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF96E26F222EEB7000EF310A /* mapstogpx20190305_173705.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mapstogpx20190305_173705.gpx; path = ../../Downloads/mapstogpx20190305_173705.gpx; sourceTree = "<group>"; };
+		FF96E270222F326F00EF310A /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = SOURCE_ROOT; };
+		FF96E2712231A30300EF310A /* c1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = c1.gpx; path = ../../Downloads/c1.gpx; sourceTree = "<group>"; };
+		FFF3376B2242A94A00737EC5 /* centro empresarial.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "centro empresarial.gpx"; path = "../../Downloads/centro empresarial.gpx"; sourceTree = "<group>"; };
+		FFF3376D2242B1C200737EC5 /* Berrine.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Berrine.gpx; path = ../../Downloads/Berrine.gpx; sourceTree = "<group>"; };
+		FFF3376F22440DF500737EC5 /* estaçãoBerrine.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "estaçãoBerrine.gpx"; path = "../../Downloads/estaçãoBerrine.gpx"; sourceTree = "<group>"; };
+		FFF79F85226654FB00F3711F /* Trem mineiro.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Trem mineiro.gpx"; path = "../../Downloads/Trem mineiro.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,13 @@
 		FF96E230222EC2AB00EF310A = {
 			isa = PBXGroup;
 			children = (
+				FF96E270222F326F00EF310A /* Location.gpx */,
+				FFF3376B2242A94A00737EC5 /* centro empresarial.gpx */,
+				FF96E26F222EEB7000EF310A /* mapstogpx20190305_173705.gpx */,
+				FFF79F85226654FB00F3711F /* Trem mineiro.gpx */,
+				FFF3376D2242B1C200737EC5 /* Berrine.gpx */,
+				FFF3376F22440DF500737EC5 /* estaçãoBerrine.gpx */,
+				FF96E2712231A30300EF310A /* c1.gpx */,
 				FF96E23B222EC2AB00EF310A /* poke_fake */,
 				FF96E250222EC2AD00EF310A /* poke_fakeTests */,
 				FF96E25B222EC2AD00EF310A /* poke_fakeUITests */,
@@ -229,9 +248,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF79F86226654FB00F3711F /* Trem mineiro.gpx in Resources */,
 				FF96E247222EC2AD00EF310A /* LaunchScreen.storyboard in Resources */,
 				FF96E244222EC2AD00EF310A /* Assets.xcassets in Resources */,
 				FF96E242222EC2AB00EF310A /* Main.storyboard in Resources */,
+				FF96E2722231A30300EF310A /* c1.gpx in Resources */,
+				FFF3376C2242A94A00737EC5 /* centro empresarial.gpx in Resources */,
+				FFF3377022440DF500737EC5 /* estaçãoBerrine.gpx in Resources */,
+				FFF3376E2242B1C200737EC5 /* Berrine.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5458D7F96U;
 				INFOPLIST_FILE = poke_fake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = INCLUDE_SOURCE;
 				PRODUCT_BUNDLE_IDENTIFIER = "danilo.poke-fake";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -450,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5458D7F96U;
 				INFOPLIST_FILE = poke_fake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
