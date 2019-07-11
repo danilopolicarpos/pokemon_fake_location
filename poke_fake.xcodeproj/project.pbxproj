@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A2A17F7822D77FE400D76EE3 /* estaçãoberrine.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */; };
+		A2A17F7A22D785E100D76EE3 /* tremMineiro.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */; };
 		FF96E23D222EC2AB00EF310A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96E23C222EC2AB00EF310A /* AppDelegate.swift */; };
 		FF96E23F222EC2AB00EF310A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96E23E222EC2AB00EF310A /* ViewController.swift */; };
 		FF96E242222EC2AB00EF310A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF96E240222EC2AB00EF310A /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "estaçãoberrine.gpx"; sourceTree = "<group>"; };
+		A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tremMineiro.gpx; sourceTree = "<group>"; };
 		FF96E239222EC2AB00EF310A /* poke_fake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poke_fake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF96E23C222EC2AB00EF310A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = poke_fake/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		FF96E23E222EC2AB00EF310A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FF96E270222F326F00EF310A /* Eliza.gpx */,
+				A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */,
 				A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */,
 				FF96E23B222EC2AB00EF310A /* poke_fake */,
 				FF96E250222EC2AD00EF310A /* poke_fakeTests */,
@@ -238,6 +241,7 @@
 				FF96E244222EC2AD00EF310A /* Assets.xcassets in Resources */,
 				A2A17F7822D77FE400D76EE3 /* estaçãoberrine.gpx in Resources */,
 				FF96E242222EC2AB00EF310A /* Main.storyboard in Resources */,
+				A2A17F7A22D785E100D76EE3 /* tremMineiro.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
