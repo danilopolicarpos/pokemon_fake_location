@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A22D0F9523721778003A28CD /* lions.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A22D0F9423721778003A28CD /* lions.gpx */; };
+		A22D0F97237B2E60003A28CD /* pokestopberrine.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A22D0F96237B2E60003A28CD /* pokestopberrine.gpx */; };
+		A22D0F99237B312A003A28CD /* sculture.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A22D0F98237B312A003A28CD /* sculture.gpx */; };
+		A291176523994D1200B3A9E4 /* centroempresarial.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A291176423994D1100B3A9E4 /* centroempresarial.gpx */; };
 		A2A17F7822D77FE400D76EE3 /* estaçãoberrine.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */; };
 		A2A17F7A22D785E100D76EE3 /* tremMineiro.gpx in Resources */ = {isa = PBXBuildFile; fileRef = A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */; };
 		FF96E23D222EC2AB00EF310A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF96E23C222EC2AB00EF310A /* AppDelegate.swift */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		A22D0F9423721778003A28CD /* lions.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lions.gpx; sourceTree = "<group>"; };
+		A22D0F96237B2E60003A28CD /* pokestopberrine.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = pokestopberrine.gpx; sourceTree = "<group>"; };
+		A22D0F98237B312A003A28CD /* sculture.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sculture.gpx; sourceTree = "<group>"; };
+		A291176423994D1100B3A9E4 /* centroempresarial.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = centroempresarial.gpx; sourceTree = "<group>"; };
 		A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "estaçãoberrine.gpx"; sourceTree = "<group>"; };
 		A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = tremMineiro.gpx; sourceTree = "<group>"; };
 		FF96E239222EC2AB00EF310A /* poke_fake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poke_fake.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +92,9 @@
 			children = (
 				FF96E270222F326F00EF310A /* Eliza.gpx */,
 				A22D0F9423721778003A28CD /* lions.gpx */,
+				A22D0F98237B312A003A28CD /* sculture.gpx */,
+				A291176423994D1100B3A9E4 /* centroempresarial.gpx */,
+				A22D0F96237B2E60003A28CD /* pokestopberrine.gpx */,
 				A2A17F7922D785E100D76EE3 /* tremMineiro.gpx */,
 				A2A17F7722D77FE300D76EE3 /* estaçãoberrine.gpx */,
 				FF96E23B222EC2AB00EF310A /* poke_fake */,
@@ -241,10 +250,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF96E247222EC2AD00EF310A /* LaunchScreen.storyboard in Resources */,
+				A22D0F99237B312A003A28CD /* sculture.gpx in Resources */,
 				FF96E244222EC2AD00EF310A /* Assets.xcassets in Resources */,
 				A2A17F7822D77FE400D76EE3 /* estaçãoberrine.gpx in Resources */,
 				FF96E242222EC2AB00EF310A /* Main.storyboard in Resources */,
+				A22D0F97237B2E60003A28CD /* pokestopberrine.gpx in Resources */,
 				A2A17F7A22D785E100D76EE3 /* tremMineiro.gpx in Resources */,
+				A291176523994D1200B3A9E4 /* centroempresarial.gpx in Resources */,
 				A22D0F9523721778003A28CD /* lions.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
